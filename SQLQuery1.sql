@@ -3,7 +3,7 @@ GO
 
 USE Academy;
 GO
-
+ 
 CREATE TABLE Curators (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Name NVARCHAR(MAX) NOT NULL,
