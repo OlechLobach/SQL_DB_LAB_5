@@ -108,7 +108,7 @@ JOIN Subjects s ON l.SubjectId = s.Id
 GROUP BY s.Name
 ORDER BY COUNT(l.Id) ASC;
 GO
-
+ 
 -- Запит 10: Кількість студентів та дисциплін на кафедрі “Software Development”
 SELECT
     (SELECT COUNT(gs.StudentId)
